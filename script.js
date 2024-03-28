@@ -161,3 +161,22 @@ const stringsLongerThan = (lengthOfStrings) => {
 let lengthOfStrings = ["this", "part", "took", "waaaay", "too", "long"]
 
 console.log('Exercise 8 Result:', stringsLongerThan(lengthOfStrings));
+
+
+
+
+/*
+Exercise 9: numArgs
+
+Challenge yourself with numArgs. This function should return the count of arguments passed to it when called.
+
+Complete Exercise 9 in the space below:
+*/
+
+
+const numArgs = function() {
+    return arguments.length;
+}
+
+
+console.log('Exercise 9 Result:', numArgs(1, 2, 3, "bob", "hello there"));
